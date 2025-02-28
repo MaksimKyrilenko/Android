@@ -17,6 +17,15 @@
             android:textStyle="bold"
             android:layout_marginBottom="16dp"/>
 
+        <!-- TextView для отображения данных -->
+        <TextView
+            android:id="@+id/tvSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Шаги: 0"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

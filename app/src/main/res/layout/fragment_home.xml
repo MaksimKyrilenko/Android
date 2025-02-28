@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
+    <!-- Заголовок -->
     <TextView
         android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
@@ -13,7 +14,9 @@
         android:textStyle="bold"
         android:layout_marginBottom="24dp"/>
 
+    <!-- Карточка с информацией о шагах -->
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewSteps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvWelcome"
@@ -45,4 +48,14 @@
                 style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
+    <!-- Кнопка для перехода в StatisticsFragment -->
+    <Button
+        android:id="@+id/btnGoToStatistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Перейти к статистике"
+        android:layout_below="@id/cardViewSteps"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="16dp"/>
 </RelativeLayout>
