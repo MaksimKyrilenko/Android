@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">FitTrack</string>
+    <string name="home">Главная</string>
+    <string name="statistics">Статистика</string>
+    <string name="profile">Профиль</string>
+    <string name="settings">Настройки</string>
+    <string name="services">Сервисы</string>
+    <string name="settings_theme">Тема приложения</string>
+    <string name="dark_theme_title">Темная тема</string>
+    <string name="dark_theme_on">Включена</string>
+    <string name="dark_theme_off">Выключена</string>
+    <string name="welcome_text">Добро пожаловать!</string>
+    <string name="steps_today">Шаги сегодня</string>
+    <string name="go_to_stats">Перейти к статистике</string>
+    
+    <!-- Строки для сервисов -->
+    <string name="service_foreground_title">Foreground Service</string>
+    <string name="service_foreground_desc">Сервис переднего плана с уведомлением</string>
+    <string name="service_background_title">Background Service</string>
+    <string name="service_background_desc">Фоновый сервис с прогрессом</string>
+    <string name="service_bound_title">Bound Service</string>
+    <string name="service_bound_desc">Привязанный сервис для взаимодействия</string>
+    <string name="btn_start">Запустить</string>
+    <string name="btn_stop">Остановить</string>
+    <string name="btn_bind">Привязать</string>
+    <string name="btn_unbind">Отвязать</string>
+    <string name="btn_get_data">Получить данные</string>
 </resources>

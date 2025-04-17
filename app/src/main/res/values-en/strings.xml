@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FitTrack</string>
+    <string name="home">Главная</string>
+    <string name="statistics">Статистика</string>
+    <string name="profile">Профиль</string>
+    <string name="settings">Настройки</string>
+    <string name="settings_theme">Тема приложения</string>
+    <string name="dark_theme_title">Темная тема</string>
+    <string name="dark_theme_on">Включена</string>
+    <string name="dark_theme_off">Выключена</string>
+    <string name="welcome_text">Добро пожаловать!</string>
+    <string name="steps_today">Шаги сегодня</string>
+    <string name="go_to_stats">Перейти к статистике</string>
+</resources>

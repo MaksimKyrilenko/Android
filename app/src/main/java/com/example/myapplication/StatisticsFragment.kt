@@ -40,6 +40,15 @@ class StatisticsFragment : Fragment() {
 
         // Отображаем данные
         binding.tvSteps.text = "Шаги: $steps"
+
+        // Обработка нажатия на кнопку для возврата данных
+        binding.btnSendDataBack.setOnClickListener {
+            val result = "Данные из StatisticsFragment: $steps шагов"
+            parentFragmentManager.setFragmentResult("requestKey", Bundle().apply {
+                putString("bundleKey", result)
+            })
+            parentFragmentManager.popBackStack() // Возврат к предыдущему фрагменту
+        }
     }
 
     override fun onStart() {

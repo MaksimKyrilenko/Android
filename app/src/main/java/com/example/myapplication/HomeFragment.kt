@@ -53,6 +53,13 @@ class HomeFragment : Fragment() {
                 .addToBackStack(null) // Добавляем в back stack для возврата
                 .commit()
         }
+
+        // Слушатель для получения данных обратно из StatisticsFragment
+        parentFragmentManager.setFragmentResultListener("requestKey", viewLifecycleOwner) { key, bundle ->
+            val result = bundle.getString("bundleKey")
+            Log.d(TAG, "Получены данные: $result")
+            // Здесь можно обновить UI или выполнить другие действия с полученными данными
+        }
     }
 
     override fun onStart() {
