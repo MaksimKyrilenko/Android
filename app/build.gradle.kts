@@ -51,6 +51,9 @@ dependencies {
     // Дополнительные зависимости для preferences
     implementation(libs.androidx.preference)
     implementation(libs.androidx.legacy.preference.v14)
+    
+    // Зависимость для работы с API
+    implementation(libs.volley)
 
     // Тестовые зависимости
     testImplementation(libs.junit)

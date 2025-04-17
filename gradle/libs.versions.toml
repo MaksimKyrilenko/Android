@@ -12,6 +12,7 @@ constraintlayout = "2.1.4"
 preferenceKtx = "1.2.1"
 preference = "1.2.1"
 legacyPreferenceV14 = "1.0.0"
+volley = "1.2.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -25,6 +26,7 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 androidx-preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "preferenceKtx" }
 androidx-preference = { group = "androidx.preference", name = "preference", version.ref = "preference" }
 androidx-legacy-preference-v14 = { group = "androidx.legacy", name = "legacy-preference-v14", version.ref = "legacyPreferenceV14" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
